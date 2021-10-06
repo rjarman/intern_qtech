@@ -1,0 +1,72 @@
+@import 'var.css';
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-user-select: none;
+  font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI',
+    'Roboto', sans-serif;
+  font-size: 12px;
+  height: 100vh;
+  padding: 0px;
+  padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px)
+    env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+  width: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dd,
+ol,
+ul,
+menu,
+figure,
+blockquote,
+p,
+pre,
+form {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+[class^='btn'] {
+  padding: 7px 15px;
+  font-size: 15px;
+  color: var(--font-col);
+  text-align: center;
+  border-style: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+[class^='btn']:hover {
+  background-color: var(--hover-col);
+}
+
+.hr {
+  border-bottom: 1px solid var(--hr-col);
+  margin: 8px 2px;
+  position: absolute;
+  top: 42px;
+  width: 94%;
+}

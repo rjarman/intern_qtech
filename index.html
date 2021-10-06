@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart | Qtech</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left_con">
+        <div class="left_con_up">
+          <input type="text" placeholder="Search products..." id="search" />
+          <ul class="pro_list"></ul>
+        </div>
+        <div class="footer">
+          <div>
+            <span>Dhanmondi | Register 1 | New Sale</span>
+            <span>
+              <button class="btn-footer">Options</button>
+              <button class="btn-footer">New Sale</button>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="right_con">
+        <div class="upper" id="card_container">
+          <div class="upper_head">
+            <img src="./assets/cust.svg" alt="customer_icon" />
+            <span>Add Customer</span>
+          </div>
+          <div class="hr"></div>
+          <!-- card will be here -->
+        </div>
+        <div class="lower">
+          <ul>
+            <li>
+              <ul>
+                <li>Discount</li>
+                <li>BDT<span id="discount">0.00</span></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li>Subtotal</li>
+                <li>BDT<span id="subtotal">0.00</span></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li>Tax(<span id="tax_percentage">%)</span></li>
+                <li>BDT<span id="tax">0.00</span></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li>Total</li>
+                <li>BDT<span id="total">0.00</span></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li>PAY</li>
+                <li>BDT<span id="pay">0.00</span></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="module.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
